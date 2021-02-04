@@ -1,0 +1,30 @@
+
+
+body{
+    background-color: #66ffcc;
+    <link rel="preconnect" href="https://fonts.gstatic.com">;
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">;
+    font-family: 'Comfortaa', cursive;
+}
+
+.headernav{
+    background-color: #00ffcc;
+    overflow: hidden;
+    text-align: center;
+    border: 3px solid #00cc99;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+.headernav a{
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.headernav a:hover{
+    background-color: #33cccc;
+    color: #66ffcc;
+}
