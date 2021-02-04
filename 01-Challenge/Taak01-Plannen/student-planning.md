@@ -12,15 +12,17 @@
 
 | Stap        | Taak                                           | Verwachte tijdsduur | Status |
 | ----------- | ---------------------------------------------- | ------------------- | ------ |
-| Planning    | Planning maken                                 | 00:30 u             | Bezig  |
-| Ontwerpen   | Mockup van portfolio maken                     |                     |        |
-| ...         | Styling van elementen bepalen                  |                     |        |
-| Realiseren  | Bestanden aanmaken                             |                     |        |
-| ...         |                                                |                     |        |
-| Testen      | Applicatie testen                              |                     |        |
-| ...         |                                                |                     |        |
-| Verbeteren  | Problemen gevonden tijdens het testen oplossen |                     |        |
-| ...         |                                                |                     |        |
-| Presenteren |                                                |                     |        |
-| ...         |                                                |                     |        |
-| Refecteren  | Reflectiedocument schrijven                    |                     |        |
+| Planning    | Planning maken                                 | 00:30 u             | Klaar  |
+| Ontwerpen   | Mockup van portfolio maken                     | 00:30 u             | Bezig  |
+| ...         | Styling van elementen bepalen                  | 00:10 u             |   |
+| Realiseren  | Bestanden aanmaken                             | 5 min               |   |
+|Starten 02   | Taak02 maken                                   | 1uur                |   |
+|Starten 03   | Taak03 maken                                   | 1uur                |   |
+|Starten 04   | Taak04 maken                                   | 1uur                |   |
+|Starten 05   | Presenteer eind resultaat                      | 1uur                |   |
+|Starten 06   | Laatste dingen opknappen                       | 1uur                |   |
+|Starten 07   | Terug kijken op mijn creatie                   | 1uur                |   |
+| Testen      | Applicatie testen                              |                     |   |
+| Verbeteren  | Problemen gevonden tijdens het testen oplossen |                     |   |
+| Presenteren |                                                |                     |   |
+| Refecteren  | Reflectiedocument schrijven                    |                     |   |
