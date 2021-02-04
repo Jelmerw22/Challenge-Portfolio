@@ -19,6 +19,7 @@ body{
   .dropdown {
     position: relative;
     display: inline-block;
+    padding: 5px 10px 30px ;
   }
   
   .dropdown-content {
@@ -42,3 +43,22 @@ body{
   .dropdown:hover .dropdown-content {display: block;}
   
   .dropdown:hover .dropbtn {background-color:#66ffcc;}
+
+  .grid{
+      display: grid;
+      grid-template-columns: 50% 50%;
+      text-align: center;
+      padding-left: 30px;   
+      text-shadow: 3px #00000071;
+  }
+ 
+  img{
+      height: 50%;
+      width: auto;
+      border-radius: 5px;
+      box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.486);
+  }
+
+  .contact{
+      text-align: center;
+  }
