@@ -1,7 +1,7 @@
 
 
 body{
-    background-color:#ccffff;
+    background-color:#e6ffff;
     <link rel="preconnect" href="https://fonts.gstatic.com">;
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">;
     font-family: 'Comfortaa', cursive;
@@ -64,4 +64,15 @@ body{
 
   .contact{
       text-align: center;
+  }
+
+  .txt{
+    background-color: #ccffff;
+    padding: 5px 10px 30px ;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(43, 42, 42, 0.068);
+  }
+
+  .img{
+    padding-top: 50px;
   }
