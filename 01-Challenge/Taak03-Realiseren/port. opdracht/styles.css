@@ -2,14 +2,12 @@
 
 body{
     background-color:#e6ffff;
-    <link rel="preconnect" href="https://fonts.gstatic.com">;
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">;
     font-family: 'Comfortaa', cursive;
+    display: flex;
 }
 
 
 .header {
-  overflow: hidden;
   background-color: white;
   max-height: 75px;
   position: fixed; 
