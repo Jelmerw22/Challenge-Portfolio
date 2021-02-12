@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
     <title>About.</title>
+    <link rel="stylesheet" href="../css/aboutstyle.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <link rel="stylesheet" href="../css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
-</head>
-<body>
+  </head>
+  <body>
+
     <div class="header">
         <div class="inner_header">
             <div class="logo_box">
@@ -21,13 +24,56 @@
             </ul>
         </div>
     </div>
-
+<div class="page">
     <div class="about">
         <div>
         <h1>Wie ben ik?</h1>
         <br>
         <h3>Dit is een faketekst. Alles wat hier staat is slechts om een indruk te geven van het grafische effect van tekst op deze plek. Wat u hier leest is een voorbeeldtekst. Deze wordt later vervangen door de uiteindelijke tekst, die nu nog niet bekend is. De faketekst is dus een tekst die eigenlijk nergens over gaat. Het grappige is, dat mensen deze toch vaak lezen. Zelfs als men weet dat het om een faketekst gaat, lezen ze toch door.</h3>
         </div>
+    
+    <div class="center">
+      <div class="images">
+        <div class="slide img1"><img src="../fotos/about/about-1.png"></div>
+        <div class="slide"><img src="../fotos/about/about-2.png"></div>
+        <div class="slide"><img src="../fotos/about/about-3.png"></div>
+        <div class="slide"><img src="../fotos/about/about-4.png"></div>
+        <div class="slide"><img src="../fotos/about/about-5.png"></div>
+        <div class="slide"><img src="../fotos/about/about-6.png"></div>
+      </div>
+      <div class="buttons">
+        <a href="#" class="btn1 active"></a>
+        <a href="#" class="btn2"></a>
+        <a href="#" class="btn3"></a>
+        <a href="#" class="btn4"></a>
+        <a href="#" class="btn5"></a>
+      </div>
     </div>
-</body>
+</div>
+    <script>
+      $(document).ready(function(){
+        $('.btn1').click(function(){
+          $('.img1').css("marginLeft","0");
+        });
+        $('.btn2').click(function(){
+          $('.img1').css("marginLeft","-20%");
+        });
+        $('.btn3').click(function(){
+          $('.img1').css("marginLeft","-40%");
+        });
+        $('.btn4').click(function(){
+          $('.img1').css("marginLeft","-60%");
+        });
+        $('.btn5').click(function(){
+          $('.img1').css("marginLeft","-80%");
+        });
+        $('a').click(function(){
+          $(this).addClass('active').siblings()
+                  .removeClass('active');
+        })
+      });
+
+    </script>
+
+  </body>
 </html>

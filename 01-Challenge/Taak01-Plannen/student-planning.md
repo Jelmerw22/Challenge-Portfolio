@@ -14,10 +14,10 @@
 | ----------- | ---------------------------------------------- | ------------------- | ------ |
 | Planning    | Planning maken                                 | 00:30 u             | Klaar  |
 | Ontwerpen   | Mockup van portfolio maken                     | 00:30 u             | Bezig  |
-| ...         | Styling van elementen bepalen                  | 00:10 u             |   |
-| Realiseren  | Bestanden aanmaken                             | 5 min               |   |
-|Starten 02   | Taak02 maken                                   | 1uur                |   |
-|Starten 03   | Taak03 maken                                   | 1uur                |   |
+| ...         | Styling van elementen bepalen                  | 00:10 u             | Klaar  |
+| Realiseren  | Bestanden aanmaken                             | 5 min               | Klaar  |
+|Starten 02   | Taak02 maken                                   | 1uur                | Bezig  |
+|Starten 03   | Taak03 maken                                   | 5uur                |   |
 |Starten 04   | Taak04 maken                                   | 1uur                |   |
 |Starten 05   | Presenteer eind resultaat                      | 1uur                |   |
 |Starten 06   | Laatste dingen opknappen                       | 1uur                |   |
