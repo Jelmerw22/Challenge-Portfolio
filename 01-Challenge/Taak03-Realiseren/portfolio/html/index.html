@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home.</title>
+    <link rel="stylesheet" href="../css/indexstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="inner_header">
+            <div class="logo_box">
+                <img src="../fotos/portresize.png" alt="">
+            </div>
+
+            <ul class="nav">
+                <a href="index.html"><li>Home.</li> </a>
+                <a href="about.html"><li>About.</li></a>
+                <a href="intrests.html"><li>Intrests.</li></a>
+                <a href="Projects.html"><li>Projects.</li></a>
+                <a href="contact.html"><li>Contact.</li></a>
+
+
+                
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="textwelkom">
+        <div class="text1"></div>
+        <div class="text2"> Dit is mijn portifolio.</div>
+    </div>
+
+
+<script>
+    
+        var bezoeker={
+        naam : prompt("Type aub uw naam in"),
+        leeftijd : prompt("Wat is uw leeftijd?"),
+    };
+    if (bezoeker.naam != null) {
+        let koptekst = document.querySelector(".text1");
+    koptekst.innerHTML = "Welkom," + " " + bezoeker.naam;
+
+    console.log(bezoeker);
+
+    if (bezoeker.leeftijd >=18) {
+    koptekst.style.color= 'green';
+        }
+        if (bezoeker.leeftijd <18) {
+            koptekst.style.color = 'red';
+            }
+            if (bezoeker.leeftijd ==0) {
+                koptekst.style.color = 'lightblue';
+                        }
+                    }
+    
+</script> 
+</body>
+</html>
