@@ -3,5 +3,5 @@
 ## Issuelijst
 
 1. Typ-fout had e-mal geschreven inplaats van e-mail.
-2. ...
+2. Locatie intresses raar.
 3. ...
