@@ -7,7 +7,6 @@
   font-family: 'Comfortaa', cursive;
   text-align: center;
   padding-top: 300px;
-  font-size: 20px;
   font-weight: 600;
 }
 
@@ -105,3 +104,6 @@ to align it properly */
 }
 
 /* media queries */
+span{
+  text-decoration: underline;
+}

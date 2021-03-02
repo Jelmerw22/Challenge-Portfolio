@@ -76,14 +76,20 @@ body{
     padding-top: 300px;
     width: 1000px;
     margin: auto;
+    font-size: 150%;
 }
+.allintrests{
+align-items: center;
+max-width: 50%;
+margin: auto;
+}
+
 
 .intrests{
     font-family: 'Comfortaa', cursive;
     text-align: center;
     padding-top: 50px;
-    width: 1000px;
-    margin: auto;
+    font-size: 200%;
 }
 
 span{
@@ -93,24 +99,21 @@ span{
 
 .intrest1{
     font-family: 'Comfortaa', cursive;
-    text-align: left;
     padding-top: 50px;
-    width: 1000px;
-    padding-left: 100px;
+    text-align: left;
+    font-size: 120%;
 }
 
 .intrest2{
     font-family: 'Comfortaa', cursive;
-    text-align: right;
     padding-top: 50px;
-    width: 1000px;
-    padding-left: 800px;
+    text-align: right;
+    font-size: 120%;
 }
 
 .intrest3{
     font-family: 'Comfortaa', cursive;
-    text-align: center;
     padding-top: 50px;
-    width: 1000px;
-    margin: auto;
+    text-align: center;
+    font-size: 120%;
 }
