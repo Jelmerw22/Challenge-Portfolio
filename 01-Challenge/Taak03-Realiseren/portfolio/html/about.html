@@ -33,48 +33,38 @@
           <br> Ik hou erg van sporten en gamen en doe dat dus ook vaak, sporten nu wat minder vanwege de lockdown (Feb. 2021) maar gamen kan ik nog volop! </h3>
         </div>
     
-    <div class="center">
-      <div class="images">
-        <div class="slide img1"><img src="../fotos/about/about-1.png"></div>
-        <div class="slide"><img src="../fotos/about/about-2.png"></div>
-        <div class="slide"><img src="../fotos/about/about-3.png"></div>
-        <div class="slide"><img src="../fotos/about/about-4.png"></div>
-        <div class="slide"><img src="../fotos/about/about-5.png"></div>
-        <div class="slide"><img src="../fotos/about/about-6.png"></div>
-      </div>
-      <div class="buttons">
-        <a href="#" class="btn1 active"></a>
-        <a href="#" class="btn2"></a>
-        <a href="#" class="btn3"></a>
-        <a href="#" class="btn4"></a>
-        <a href="#" class="btn5"></a>
-      </div>
-    </div>
-</div>
-    <script>
-      $(document).ready(function(){
-        $('.btn1').click(function(){
-          $('.img1').css("marginLeft","0");
-        });
-        $('.btn2').click(function(){
-          $('.img1').css("marginLeft","-20%");
-        });
-        $('.btn3').click(function(){
-          $('.img1').css("marginLeft","-40%");
-        });
-        $('.btn4').click(function(){
-          $('.img1').css("marginLeft","-60%");
-        });
-        $('.btn5').click(function(){
-          $('.img1').css("marginLeft","-80%");
-        });
-        $('a').click(function(){
-          $(this).addClass('active').siblings()
-                  .removeClass('active');
-        })
-      });
+        <div class="slidershow middle">
 
-    </script>
-
+          <div class="slides">
+            <input type="radio" name="r" id="r1" checked>
+            <input type="radio" name="r" id="r2">
+            <input type="radio" name="r" id="r3">
+            <input type="radio" name="r" id="r4">
+            <input type="radio" name="r" id="r5">
+            <div class="slide s1">
+              <img src="../fotos/about/about-1.png" alt="">
+            </div>
+            <div class="slide">
+              <img src="../fotos/about/about-2.png" alt="">
+            </div>
+            <div class="slide">
+              <img src="../fotos/about/about-3.png" alt="">
+            </div>
+            <div class="slide">
+              <img src="../fotos/about/about-4.png" alt="">
+            </div>
+            <div class="slide">
+              <img src="../fotos/about/about-5.png" alt="">
+            </div>
+          </div>
+    
+          <div class="navigation">
+            <label for="r1" class="bar"></label>
+            <label for="r2" class="bar"></label>
+            <label for="r3" class="bar"></label>
+            <label for="r4" class="bar"></label>
+            <label for="r5" class="bar"></label>
+          </div>
+        </div>
   </body>
 </html>

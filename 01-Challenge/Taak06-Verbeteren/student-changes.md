@@ -4,4 +4,5 @@ Welke verbeteringen heb je op basis van de gevonden issues en feedback doorgevoe
 
 1. E-mail verbeterd.
 2. Locatie van intrests text veranderd.
-3. ...
+3. text properties op verschillende plekken aangepast.
+4. slider aangepast.
