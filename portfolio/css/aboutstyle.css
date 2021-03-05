@@ -11,17 +11,14 @@ body{
   background-image: url(../fotos/background\ test.png);
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: 'Comfortaa', cursive;
-}
-.about{
-font-size: 120%;
-font-family: 'Comfortaa', cursive;
+
+
 }
 .slidershow{
   width: 700px;
   height: 400px;
   overflow: hidden;
-  margin-top: 10%;
+  padding-top: 400px;
 }
 .middle{
   position: absolute;
